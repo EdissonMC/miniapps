@@ -20,6 +20,13 @@
 
     THIS ITS THE VERSION_1 VERY EARLY IMPLEMENTATION WITHOUT ANY IMPROVEMT IN PERFORMANCE
 
+    //  work-play  ESTUDIAR
+    //  sleep-sware  219.161 seg   [ sleep,steep,steen,stern,starn,stare,sware, ]
+    //  angel-level  14.7172 seg   [ angel,anger,auger,luger,leger,lever,level, ]
+    //  sleep-sharn  62.5573 seg   [ sleep,sheep,sheen,shewn,shawn,sharn, ]
+    //  work-flam    113.849 seg   [ work,fork,form,foam,flam, ]
+
+
 */
 
 bool mutarPalabra(std::string wordTarget, std::set<std::string> dictionary, std::queue< std::vector<std::string> >& queueLadders ,  std::vector<std::string > &currentVector,std::set<std::string> & wordVisited);
@@ -57,10 +64,11 @@ int main () {
     //  CREATING A QUEUE FOR STORE LADDERS 
         std::queue< std::vector<std::string> > queueLadders;
 
-
-    //  sleep-sharn  62.5573 seg
+    //  work-play  ESTUDIAR
+    
     //  sleep-sware  219.161 seg   [ sleep,steep,steen,stern,starn,stare,sware, ]
     //  angel-level  14.7172 seg   [ angel,anger,auger,luger,leger,lever,level, ]
+    //  sleep-sharn  62.5573 seg   [ sleep,sheep,sheen,shewn,shawn,sharn, ]
     //  work-flam    113.849 seg   [ work,fork,form,foam,flam, ]
 
 
@@ -133,6 +141,9 @@ int main () {
         //  std::cout <<"word ladder \n";
     return 0;
 }
+
+
+
 
 
 
